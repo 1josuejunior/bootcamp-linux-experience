@@ -1,0 +1,18 @@
+Para acessarmos a máquina virtual Linux Ubuntu remotamente no Windows utilizaremos o Putty.
+
+Site do Putty: https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html
+
+- Instalar o arquivo binário putty.exe (SSH e Telnet): X86 de 64 bits
+- A máquina local deverá ter instalada o programa "sudo get openssh-server". Pois, ele permite o acesso remoto de máquinas remotas ao sistema local.
+
+Na sequência: 
+
+1. Necessito saber do IP da máquina virtual Linux. Dentro da mesma, utilizo o comando "ip a".
+2. Depois, abro o Putty e coloco o IP da máquina virtual local na caixa de IP do Putty.
+3. Após, será pedida o meu login e senha da máquina virtual local. 
+4. Pronto, estou remotamente conectado a máquina virtual local.
+
+
+Em caso de dúvidas, consulte: https://web.dio.me/course/acesso-remoto-a-maquinas-linux/learning/671d4eed-af52-45d0-84b0-888b29263dec?back=/track/linux-experience&tab=undefined&moduleId=undefined
+
+
