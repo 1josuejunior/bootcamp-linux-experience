@@ -1,1 +1,38 @@
-Conceitos de SO: Um sistema operacional gerencia e administra recursos de um sistema.
+CONCEITO DE SISTEMA OPERACIONAL: 
+Um sistema operacional gerencia e administra recursos de um sistema.
+
+PRINCIPAL FUNÇÃO: 
+O sistema operacional estabelece uma interface entre o Hardware e o usuário.
+
+KERNEL: 
+Ele é a ponte entre usuário e hardware. Também conhecido como núcleo do sistema operacional.
+
+SISTEMAS OPERACIONAIS DOMÉSTICOS MAIS UTILIZADOS: 
+Windows, Mac OS, Linux.
+
+O QUE É O LINUX?
+É um S.O. amplamente utilizado no segmento de servidores e por dev. de software. Mas, ainda não é tão utilizado no uso doméstico (uso pessoal).
+Foi desenvolvido por Linus Torvalds em 1991, quando ainda estava na faculdade de Helsinki na Filândia. Foi inspirado no Unix, que é um S.O da década de 70.
+O kernel do Linux é suportado/mantido por uma comunidade internacional de desenvolvedores (empresas e pessoas). Está disponível de graça e pode ser usado por qualquer pessoa.
+
+DISTRIBUIÇÃO DO LINUX:
+É um pacote que consiste em um Kernel mantido por uma empresa ou comunidade de usuários.
+O objetivo da distribuição é otimizar os aplicativos que rodam no S.O. para um determinado tipo de uso ou grupo de usuários.
+Exemplos: Debian (uso doméstico), ubuntu (uso doméstico), Red Hat (uso corporativo), fedora (uso corporativo), suse (uso corporativo). 
+
+SISTEMAS EMBARCADOS:
+São uma combinação de hardware e software projetados para cumprir função específica dentro de um sistema maior. Exemplo: É o Linux dentro de celulares, aplicações automotivas e etc.
+
+LINUX - MODELO CLIENTE-SERVIDOR: 
+É uma estrutura de aplicação que distribui tarefas e cargas de trabalho entre os fornecedores de um serviço, designados como SERVIDORES e os requerentes são designados como CLIENTES.
+
+
+
+
+
+
+
+
+
+
+
