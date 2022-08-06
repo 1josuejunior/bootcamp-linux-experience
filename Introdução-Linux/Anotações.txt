@@ -24,7 +24,7 @@ SISTEMAS EMBARCADOS:
 São uma combinação de hardware e software projetados para cumprir função específica dentro de um sistema maior. Exemplo: É o Linux dentro de celulares, aplicações automotivas e etc.
 
 LINUX - MODELO CLIENTE-SERVIDOR: 
-É uma estrutura de aplicação que distribui tarefas e cargas de trabalho entre os fornecedores de um serviço, designados como SERVIDORES e os requerentes são designados como CLIENTES.
+É uma estrutura de aplicação que distribui tarefas e cargas de trabalho entre os fornecedores de um serviço, designados como **SERVIDORES** e os requerentes são designados como **CLIENTES**.
 
 
 
