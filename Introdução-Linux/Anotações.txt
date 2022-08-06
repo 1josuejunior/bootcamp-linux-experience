@@ -1,0 +1,1 @@
+Conceitos de SO: Um sistema operacional gerencia e administra recursos de um sistema.
