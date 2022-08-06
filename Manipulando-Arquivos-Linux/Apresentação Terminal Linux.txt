@@ -1,0 +1,16 @@
+No terminal do Putty - Acesso Remoto ao Linux:
+
+$ = Significa que não é um super usuário. Ele não pode instalar programas, não pode excluir arquivos e etc.
+# = Significa que é o super usuário logado. Tem acesso total ao sistema.
+
+Todos os comandos executados tem que ser em letra MINÚSCULAS.
+
+Comando para limpar a tela no terminal Putty: "clear" ou "ctrl + L".
+
+
+
+Link da aula: https://web.dio.me/course/linux-trabalhando-com-arquivos/learning/4990ccf2-4b55-4ed4-a851-b515ea37fd34?back=/track/linux-experience&tab=undefined&moduleId=undefined
+
+
+
+

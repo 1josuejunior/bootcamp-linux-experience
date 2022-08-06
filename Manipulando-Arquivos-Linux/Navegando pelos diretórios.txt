@@ -1,0 +1,18 @@
+Navegando pelos sistemas de arquivo do Linux pelo terminal remoto Putty:
+
+1. Comandos
+
+"date" = Verificar a data e dia.
+
+"pwd" = Verificar o diretório onde estou atualmente.
+
+"cd" + "nome do diretório" = Mudar de pasta/diretório ou selecionar. Exemplo: "cd /var"
+
+"ls" = Listar os arquivos na pasta/diretório.
+
+"cd .." = Voltar uma pasta/diretório atrás.
+
+"cd ../"nome da pasta" = Sair de uma pasta e ir diretamente para outra sem precisar parar no diretório principal.
+
+- As pastas/diretórios ficam na coloração azul no Putty.
+- Caso eu tenha esquecido o nome de alguma pasta/diretório de destino, posso apertar TAB duas vezes para ver uma prévia do que tem dentro. Ex: "cd /var/"presionar TAB 2x".
