@@ -1,0 +1,10 @@
+LOCALIZANDO/PESQUISANDO ARQUIVOS NO PUTTY/LINUX
+
+
+Caso eu queira listar arquivos estando fora da pasta, segue: "ls /"nome da pasta"". Ex: "ls /sys" ou "ls /sys/kernel"
+Desta forma não preciso entrar na pasta para listar.
+
+
+1. Caso eu queira pesquisar, usamos: "find".
+
+- Pesquisar pelo nome: find -name "escreva o nome".
