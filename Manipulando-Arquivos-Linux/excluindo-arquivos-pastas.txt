@@ -1,0 +1,26 @@
+EXCLUINDO ARQUIVOS E PASTAS NO PUTTY E LINUX
+
+
+
+1. Para excluir arquivos utilizo: rm + "nome". 
+Exemplo: "rm texto1.txt".
+
+Obs.: Posso excluir arquivos com filtros, segue: "rm arquivo[1-5]*, rm arquivo[1,3]* ou rm arquivo*"
+
+
+
+
+2. Para excluir diretórios utilizo: rmdir + "nome". 
+Exemplo: "rmdir Documentos"
+
+
+Obs.: Para excluir uma pasta é necessário ela não ter nenhum arquivo dentro. Se tiver, dará erro e ela não sera excluida.
+
+
+
+
+3. Para excluir uma pasta rapidamente de forma total, uso: rm -rf "nome da pasta"
+Exemplo: "rm -rf Planilhas"
+
+
+

@@ -1,0 +1,9 @@
+CRIANDO PASTAS/DIRETÓRIOS NO PUTTY OU LINUX
+
+Para criar pastar utilizo o comando: mkdir. Exemplo: mkdir Documentos
+
+Pronto, desta forma criei a pasta com o nome Documentos.
+
+Para criar pastas com espaço no meio utilizo: mkdir 'Meus Documentos'.
+Tenho que escrever o nome dentro das aspas simples ('nome').
+
