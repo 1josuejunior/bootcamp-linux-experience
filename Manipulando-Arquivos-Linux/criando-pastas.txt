@@ -4,6 +4,9 @@ Para criar pastar utilizo o comando: mkdir. Exemplo: mkdir Documentos
 
 Pronto, desta forma criei a pasta com o nome Documentos.
 
+<<<<<<< HEAD
 Para criar pastas com espaço no meio utilizo: mkdir 'Meus Documentos'.
 Tenho que escrever o nome dentro das aspas simples ('nome').
 
+=======
+>>>>>>> 0a4ac43be1c28b393eb215a072661b38e21562e0
