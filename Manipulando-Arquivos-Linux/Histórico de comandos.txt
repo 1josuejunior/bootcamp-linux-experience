@@ -1,0 +1,57 @@
+--- VERIFICANDO HISTÓRICO DE COMANDOS UTILIZADOS PELO USUÁRIO NO TERMINAL
+
+Para consultar os últimos comandos, utilizamos o comando "history".
+
+Caso queira os últimos 10, 20 ou 30, utilizamos o comando "history + o número desejado". Exemplo: "history 10"
+
+
+
+
+--- PARA UTILIZAR O ÚLTIMO COMANDO 
+
+Neste caso utilizamos o "! + número em que o comando foi exibido". Exemplo: "!250", vai executar o comando na posição 250.
+
+Se eu quiser executar o último comando, utilizo "!!". Duas exclamações.
+
+
+
+
+--- BUSCANDO COMANDOS 
+
+Caso eu queira buscar um comando, utilizo "!?comando ou inicial?". Exemplo: "!?dat?", exibirá os comandos que começam com a palavra dat.
+
+
+
+
+--- BUSCAR POR COMANDO UTILIZADOS RECENTEMENTE
+
+Utilizamos o comando "history | grep "nome do comando".
+
+Desta forma buscará todas as vezes em que a palavra buscada aparece no histórico de utilização.
+
+
+
+
+--- CONSULTANDO A HORA, DIA EM QUE FOI UTILIZADO O COMANDO
+
+Temos que exportar uma variável, digitamos "export HISTTIMEFORMAT="%c ""
+
+Depois, utilizamos o comando "history" e todas informações sobre data e hora em que o comando foi utilizado serão exibidos.
+
+
+
+
+
+--- APAGANDO O HISTÓRICO DE COMANDOS
+
+Utilizamos "history -c" e todas as informações são apagadas.
+
+
+
+
+--- FAZENDO COM QUE OS COMANDOS UTILIZADOS NÃO SEJAM ARMAZENADOS
+
+Utilizamos "set +o history". Desta forma todos que eu usar, não aparecerão no histórico.
+
+
+Para sair deste modo "set -o history". Desta forma, todos comandos usados serão exibidos novamente no histórico.
