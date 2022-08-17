@@ -1,0 +1,24 @@
+--- LOGANDO COMO USUÁRIO ROOT
+
+Como é a primeira vez, necessitaremos criar uma senha para o usuário root. 
+
+Para criar a senha, utilizamos o comando "sudo passwd root" e definimos a senha.
+
+
+--- ENTRANDO NO USUÁRIO ROOT COM A SENHA CRIADA
+
+Para sair do usuário josuejunior e ir para o root, utilizo o comando "su" e depois digito a senha.
+
+
+--- SAINDO DO USUÁRIO ROOT 
+
+Para sair do usuário root e entra novamente no josuejunior, utilizo o comando "su josuejunior". Não foi preciso de senha.
+
+
+
+
+
+
+
+
+
