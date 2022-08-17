@@ -1,0 +1,15 @@
+SOLICITANDO AJUDA NO LINUX: 
+
+
+1. Utilizando o comando "--help". Exemplo: "ls --help"
+Mostrará todas as opções que podem ser utilizadas com o ls. É possível utilizar com qualquer comando.
+
+
+
+2. Utilizando o comando "man". Exemplo: "man ls".
+Mostrará todas as opções que podem ser utilizadas com o ls. É possível utilizar com outros comandos.
+
+
+
+
+3. Acessar o site oficial de ajuda do Ubuntu: help.ubuntu.com
