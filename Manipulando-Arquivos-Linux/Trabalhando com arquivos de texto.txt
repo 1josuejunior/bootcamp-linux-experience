@@ -1,0 +1,35 @@
+--- TRABALHANDO COM ARQUIVOS DE TEXTO DIRETAMENTE DO TERMINAL
+
+Inicialmente, nesta atividade, necessitaremos logar com usuário root.
+
+Após feito isso, crie uma pasta. Exemplo: mkdir Textos
+
+
+
+
+--- UTILIZAÇÃO DO COMANDO "vi"
+
+Este comando nos mostra o conteúdo dentro de um arquivo de texto, de fato, os textos. Caso ela declarada e não existir o arquivo com o nome, ela criará.
+
+Exemplo: "vi texto1.txt".
+
+Após isso, o arquivo foi criado e é possível colocar textos dentro dele pressionando a tecla "i".
+
+Inserir conteúdo: "i"
+
+Para sair e salvar, tenho que colocar os ":"
+Salvar conteúdo: ":w"
+Sair do modo: ":q"
+
+
+
+
+--- UTILIZAÇÃO DO COMANDO "nano"
+
+Este comando eu consigo visualizar o texto e no mesmo momento já realizar alterações em seu corpo.
+
+Exemplo: "nano texto1.txt"
+
+Para salvar ^O. Isso quer dizer "ctrl + O"
+Para sair ^X. Isso quer dizer "ctrl + X"
+
