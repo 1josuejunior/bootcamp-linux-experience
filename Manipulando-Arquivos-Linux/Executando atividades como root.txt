@@ -1,0 +1,13 @@
+POSSO EXECUTAR ATIVIDADES COMO USUÁRIOS ROOT (modo administrador)
+
+Neste caso necessito utilizar antes de qualquer comando a palava "sudo".
+
+Exemplos:
+
+1. Criação de diretórios/pastas -> "sudo mkdir Aulas"
+
+2. Criação de arquivos -> "sudo touch texto.txt"
+
+3. Apagando diretórios/pastas -> "sudo rmdir Aulas"
+
+4. Apagando arquivos -> "sudo rm texto.txt"
