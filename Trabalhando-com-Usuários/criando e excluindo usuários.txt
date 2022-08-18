@@ -1,0 +1,17 @@
+--- CRIANDO USUÁRIOS NO SERVIDOR (necessário estar logado como root)
+
+Utilizo o comando "useradd + nome". 
+
+Para criar o usuário com a pasta dele no home, utilizo "useradd + nome -m -c -s bin/bash". O -m é para criar a pasta no home, -c para colocar comentário/nome completo e -s para criar com as permissões adequadas de um usuário convencional.
+
+
+--- EXCLUINDO USUÁRIOS NO SERVIDOR
+
+Utilizo o comando "userdel -r -f + nome". O -f é para forçar o delete e =r para apagar todos diretórios/pasta.
+
+
+--- INCLUINDO SENHA NO USUÁRIO
+
+Utilizo o comando "passwd + nome do user".
+
+
