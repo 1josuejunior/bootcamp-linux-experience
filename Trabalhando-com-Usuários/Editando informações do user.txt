@@ -1,0 +1,22 @@
+-- CRIAÇÃO DE UM USUÁRIO CONVIDADO
+
+Utilizamos o comando "useradd guest -c "Convidado" -m -e 26/08/2022. Onde, o "-m" cria a pasta no home, "-c" é o comentário/nome e o "-e" é a data de expiração até quando esse user vai poder logar.
+
+
+
+--- CRIAÇÃO DE SENHA PARA O USER guest
+
+Utilizamos o comando "passwd guest".
+
+Se eu quiser colocar data de expiração da senha, utilizo o "passwd guest -e". O -e significa que a toda entrada o usuário vai ter que trocar ou posso colocar "-e 26/08/2022".
+
+
+
+--- REALIZANDO ALTERAÇÕES NO USUÁRIO (especificando o SHELL)
+
+Utilizamos o comando "usermod". Exemplo: "usermod guest -s /bin/bash"
+
+
+--- CONSULTANDO OS USERS DO SISTEMA
+
+Utilizo o comando "cat /etc/passwd"
