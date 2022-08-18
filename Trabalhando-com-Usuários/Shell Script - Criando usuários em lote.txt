@@ -1,0 +1,20 @@
+--- CRIANDO USUÁRIOS EM LOTE
+
+
+1. Crio uma pasta chamada script na raíz, usando comando "mkdir script".
+
+
+
+2. Depois crio um arquivo dentro desta pasta script, utilizando o comando "nano criar_user.sh". Obrigatoriamente é preciso colocar .sh no final.
+
+   -- Dentro do arquivo, utilizo o "useradd convidado1 -m -c "convidado especial" -s /bin/bash -p $(openssl passwd -crypt Senha123)
+                                    "passwd convidado1 -e"
+   
+   --- Depois, só repetir a quantidade de usuários que criaremos de uma vez.
+ 
+
+
+3. Para tonar no arquivo editável como se fosse um texto, uso o comando "chmod +x criar_user.sh".
+
+
+
