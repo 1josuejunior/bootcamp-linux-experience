@@ -1,0 +1,29 @@
+--- CRIANDO GRUPOS
+
+Para criar grupos utilizamos o comando -> "groupadd + nome". Exemplo: groupadd ADM
+
+
+
+--- EXCLUINDO GRUPOS
+
+Para excluir grupos utilizamos o comando -> "groupdel + nome". Exemplo: groupdel ADM
+
+
+
+--- PARA INCLUIR USUÁRIOS AOS GRUPOS CRIADOS
+
+Utilizar o comando -> usermod -G GRP_ADM + nome do usuário
+
+Exemplo: "usermod -G GRP_ADM mariana"
+
+
+
+--- RETIRANDO USUÁRIOS DOS GRUPOS E ADICIONANDO EM OUTRO
+
+Utilizar o comando -> "usermod -G GRP_ADM + usuário". Desta forma o user sairá de todos os grupos e fará parte apenas do indicado.
+
+Utilizando o comando -> "qpasswd -d + user". Desta forma eu retiro o usuário apenas de um único grupo, não de todos.
+
+
+
+
