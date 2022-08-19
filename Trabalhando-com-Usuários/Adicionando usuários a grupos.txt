@@ -1,0 +1,26 @@
+--- PRIMEIRO CRIAREMOS UM USUÁRIO COM SENHA NO SERVIDOR 
+
+Utilizamos os comandos -> useradd mariana -c "Mariana dos Anjos" -m -s /bin/bash
+
+Colocamos a senha com o comando -> "passwd mariana"
+
+
+
+--- INCLUINDO USUÁRIOS NOS GRUPOS
+
+Utilizamos o comando -> usermod -G + nomes dos grupos + nome do usuário. 
+
+Exemplo: "usermod -G adm,sudo mariana"
+
+O "-G" é para inclusão em vários grupos de uma vez, o "-g" (minúsculo) é para apenas um grupo.
+
+
+
+
+--- PARA CONSULTAR OS GRUPOS E ONDE ESTÁ CADA USUÁRIOS
+
+Utilizar o comando -> "cat /etc/group"
+
+
+
+
