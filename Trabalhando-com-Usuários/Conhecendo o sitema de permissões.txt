@@ -1,0 +1,35 @@
+--- ENTENDENDO AS LETRINHAS DOS ARQUIVOS/DIRETÓRIOS
+
+Entraremos no diretório home e utilizaremos o comando "ls -l" para listar os arquivos e permissões.
+
+Todo inicio começa com as seguintes informações:
+
+d = diretório/pasta
+- = arquivo texto, imagem e etc.
+
+Após, vem várias blocos, o primeiro bloco que refere-se ao DONO:
+
+R = read (leitura/visualizar arquivos)
+W = write (gravação/salvar arquivos)
+X = execute (execução/abrir arquivo)
+
+Após, vem o segundo bloco, destina-se aos usuários do GRUPO.
+
+R = leitura
+W = gravação
+X = execute
+
+Após, vem o último bloco, as últimas letras, destinam-se aos OUTROS usuários gerais.
+
+
+
+--- TROCANDO GRUPOS DE USUÁRIOS PROPRIETÁRIOS (ex: Tiro do root e passo para josuejunior).
+
+Obs.: Tem que ser realizado com o user root ou users que tem permissões iguais ao root.
+
+Utilizamos o comando -> "chown + user + pasta". Ex: "chown josuejunior:GRP_ADM /adm"
+
+
+
+
+
