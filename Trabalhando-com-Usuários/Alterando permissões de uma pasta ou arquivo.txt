@@ -1,0 +1,12 @@
+--- ALTERANDO AS PERMISSÕES DE UMA PASTA OU ARQUIVO
+
+Utilizaremos o comando "chmod" e teremos que colocar as somatórias dos seguintes números:
+
+Leitura R= 4
+Gravação W= 2
+Execução X= 1
+Nenhuma = 0
+
+Segue exemplo: "chmod   7 (R+W+X) +  5 (R+X)   + 0   /adm  -----> "chmod 750 /adm"
+
+                      dono    grupo    demais users
