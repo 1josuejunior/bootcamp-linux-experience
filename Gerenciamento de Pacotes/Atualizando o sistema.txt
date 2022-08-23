@@ -1,0 +1,12 @@
+--- COMO FAZER PARA ATUALIZAR O SISTEMA?
+
+Utilizamos o comando "apt update", após concluido, utilizamos o "apt upgrade"
+
+
+Antes de fazer qualquer atualização, temos que ter um ambiente de testes. É possível criar no Virtual Box na parte de Snapshots.
+
+Para restaurar a versão anterior a atualização, tenho de desligar a máquina virtual e aperto o botão de restaurar no Virtual Box
+
+
+
+Comando para desligar a máquina virtual ---> shutdown 0
