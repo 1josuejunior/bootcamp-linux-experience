@@ -1,0 +1,67 @@
+--- O que é um pacote?
+
+Pode ser um software novo, um drive, um hardware, codek de um vídeo que será instalado no sistema.
+
+
+
+--- Qual comando utilizo para gerenciar pacotes no Ubuntu/Debian?
+
+"apt-get": gerenciamento de pacotes de baixo nível.
+"apt": neste tenho recursos de atualizações, buscas de pacotes, é um comando mais mordeno e mais amigável.
+
+
+
+--- Como verificar todos os pacotes disponíveis?
+
+apt list
+
+
+
+--- Como ver os pacotes instalados na minha máquina? 
+
+apt list --installed
+
+
+
+--- Como saber os aplicativos a serem atualizados na minha máquina?
+
+apt list --upgradeable
+
+
+
+--- Como fazer buscas de pacotes na máquina?
+
+apt search + nome
+
+Exemplo: apt search samba
+
+
+
+--- O que fez a instalação do pacote net-tools
+
+Fez com que a gente conseguisse utilizar também o "ifconfig" para verificar o IP.
+
+
+
+--- Baixando diretórios do github
+
+Utilizar o comando wget + link. 
+
+
+
+--- Descompactar pastas ZIP
+
+unzip + nome pasta.
+
+
+
+--- Desinstalado pacotes
+
+apt remove + nome do pacote
+
+
+
+--- Não encontrei o pacote para instalar, oq fazer?
+
+Colocaremos o link dele dentro do repositório do Linux. Usamos o comando "apt edit-sources"
+
