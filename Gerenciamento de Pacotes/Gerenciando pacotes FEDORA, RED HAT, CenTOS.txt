@@ -1,0 +1,35 @@
+--- COMANDO PARA ATUALIZAÇÕES NO RED HAT
+
+dnf 
+yum
+
+
+
+--- PROCURANDO PACOTES NO RED HAT
+
+dnf search + nome do pacote 
+
+
+
+--- INSTALANDO PACOTES NO RED HAT
+
+dnf install + nome do pacote
+
+
+--- REMOVENDO PACOTES NO RED HAT 
+
+dnf remova + nome do pacote
+
+
+
+--- ATUALIZANDO O SISTEMA RED HAT
+
+Basta apenas utilizar o comando "dnf update". 
+
+
+
+Obs.: Utilizamos -y para que não seja realizada nenhuma pergunta durante a instalação.
+
+
+
+
