@@ -1,0 +1,20 @@
+--- TIPOS DE DISCOS
+
+HD e SSD.
+
+
+--- SISTEMAS DE ARQUIVO
+
+É uma forma como o sistema operacional usa para controlar como os dados são recuperados e armazenados.
+
+MacOS -> HFS
+Unix/Linux -> Ext3, Ext4 (Ubuntu) e XFS (RedHeat)
+Windows -> FAT32, NTFS
+
+
+--- PARTICIONAMENTO
+
+É a divisão de um disco em parte. Cada parte é independente da outra. 
+
+Partições no Windows, exemplo: Disco E, Disco H e etc.
+Partições no Linux recebem um nome iniciado com "sd". Exemplo: sda, sdb ou sda1, sda2.
