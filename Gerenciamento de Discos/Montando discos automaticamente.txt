@@ -1,0 +1,28 @@
+--- MONTANDO DISCOS AUTOMATICAMENTE
+
+
+Apesar de termos montado o disco, se reiniciarmos o computador, ele não mostrará nada, pois não fica salvo espotâneamente.
+
+1. Utilizaremos um arquivo de configuração da seguinte forma: 
+
+"nano /etc/fstab"
+
+
+
+2. Necessitaremos passar um paramêtro e escrever dentro desse arquivo as seguintes informações:
+
+"/dev/sdb /disk2 ext4 defaults 0 0"
+
+local do disco e nome + nome da pasta montada + ext4 + defaults 0 0
+
+
+
+3. Depois apertamos ctrl + O para salvar. Depois ctrl + X para sair.
+
+
+
+4. Reiniciar a máquina e entrar na pasta do novo disco para ver se todos os arquivos estão lá.
+
+
+
+
