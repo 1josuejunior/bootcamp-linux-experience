@@ -1,0 +1,39 @@
+--- CÓPIA DE ARQUIVOS
+
+
+--> Cópia de apenas UM arquivo <--
+
+Utilizamos o comando "cp /home/josuejunior/arquivo-josue1.txt /disk2
+
+cp + local do arquivo que quero copiar + arquivo que quero + local que a cópia será enviada.
+
+
+
+---> Cópia de VÁRIOS arquivos TXT <---
+
+Utilizamos o comando "cp /home/josuejunior/*.txt /disk2
+
+Obs. O asteristico informar que não importa o nome, todos os arquivos que forem txt serão copiados.
+
+
+
+---> Copiar todos os arquivos de uma pasta para outra <---
+
+1. Entro na pasta em questão. Exemplo: cd /home/josuejunior
+2. Dentro dela aplico o comando "cp ./a* /disk2 ou posso utilizar o comando "cp /home/josuejunior/*.docx /disk2"
+
+
+
+Obs: Quando no destino estiver arquivos de mesmo nome, haverá uma sobreposição, fazendo com que informações dentro dos arquivos sejam perdidas.
+     Para isso utilizaremos a interatividade, o sistema perguntará antes de sobrepor quando colocarmos o "-i" no final. 
+
+
+
+---> Copiar todos os arquivos, inclusive pastas e arquivos dentros dessas pastas <---
+
+Utilizaremos o modo recursivo, "cp /home/josuejunior/* /disk2 -r"
+
+
+
+Obs.: Em arquivos grande é bom utilizarmos o modo verboso "-v" para verificar o andamento do processo de cópia.
+
