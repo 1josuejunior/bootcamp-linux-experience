@@ -1,0 +1,16 @@
+--- VISUALIZANDO OS DISCOS ATUAIS NO SERVIDOR LINUX
+
+Utilizaremos o comando "lsblk" ou "fdisk -l" para visualizar os discos.
+
+--- ADICIONANDO O NOVO DISCO NA MÁQUINA VIRTUAL
+
+O servidor necessitará está desligado.
+1. Vou na máquina no Virtual Box > Configurações > Armazenamento > Controladora SATA > Adiciona disco rígido (code pequeno) > Criar > VDI > Opção Dinamicamente alocado > Escolher o tamanho do disco > Clicar em criar > Seleciona o novo disco > Clica em escolher. 
+2. Ligar a máquina.
+3. Visualizar os discos pelo comando "lsblk".
+
+
+
+
+
+
