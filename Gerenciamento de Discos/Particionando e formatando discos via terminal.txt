@@ -1,0 +1,30 @@
+--- PARTICIONANDO O NOVO DISCO CRIADO
+
+1. Localizaremos onde está o disco com o comando "fdisk -l".
+2. Depois, utilizaremos o comando "fdisk /dev/sdb" para ir ao local do disco.
+3. No comando, colocaremos a letra "n".
+4. Escolher entre partição primária (p) ou extendida (e)
+5. Enumerar o número da partição.
+6. Selecionar o primeiro setor, ele já dar o primeiro como "default". Apertar enter, sem digitar nada.
+7. Selecionar o último setor, como utilizaremos toda partição, o sistema já dar o último como "default". Apertar enter sem digitar nada.
+8. Salvar as alterações com o comando "w".
+9. Partição criada.
+
+--- FORMATANDO O NOVO DISCO CRIADO
+
+Instalando o sistema de arquivos Ext4 e apagando a partição.
+
+1. Utilizaremos o comando "mkfs.ext4 + local do disco, no caso mkfs.ext4 /dev/sdb" para instalar o filesystem.
+2. Após utilizado, o sistema pedirá confirmação. Apertamos "Y" para confirmar.
+
+
+
+
+
+
+
+
+
+
+
+
