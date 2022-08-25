@@ -1,0 +1,30 @@
+--- VISUALIZANDO PROCESSOS EM EXECUÇÃO - AMBIENTE GRÁFICO
+
+ps -> Visualizar processos em execução do usuário atual.
+ps a -> Visualizar processos em execução de todos os usuários.
+ps au -> Visualizar processos em execução de com o nome de todos usuários com horário de ínicio.
+ps aux -> Visualizar processos em execução de com nome de todos os usuários com horários de ínicio e fora de console.
+
+
+--- FINALIZANDO UM PROCESSO - AMBIENTE GRÁFICO
+
+Utilizaremos o comando "kill + número do processo PID"
+
+Para finalizar todos os processos, utilizamos o comando "kill all".
+
+Obs.: PID significa Process Identifier, ele um número de identificação que o sistema dá a cada processo
+
+
+
+
+--- VISUALIZANDO USUÁRIOS NO SERVIDOR - TERMINAL
+
+1. Utilizamos o comando "w"
+2. Para visualizar seu número PID, utilizamos o comando "who -a".
+
+
+--- FINALIZANDO O ACESSO DE UM USUÁRIO NO SERVIDOR - TERMINAL
+
+1. Utilizaremos o comando "who-a" e anotamos seu número PID.
+2. Depois, utilizaremos o comando "kill + número PID".
+
