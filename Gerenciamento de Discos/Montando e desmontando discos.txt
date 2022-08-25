@@ -1,0 +1,13 @@
+--- MONTANDO O DISCO
+
+Para montar o disco necessitaremos de um diretório/pasta, normalmente, no servidor Linux já existe uma na raíz chamada "mnt".
+
+1. Dentro do diretório "mnt" criar um pasta chamada "disco2".
+2. Após, utilizaremos o comando "mount /dev/sdb /mnt/disco2"
+3. Tudo que for salvo nesta pasta, será gravado na memória do novo disco sdb.
+
+--- DESMONTANDO O DISCO
+
+1. Na raíz, utilizamos o comando "umount /dev/sdb ou nome do disco que queira desmontar".
+2. Pronto, todos os dados da pasta do disco2 foram apagados.
+
