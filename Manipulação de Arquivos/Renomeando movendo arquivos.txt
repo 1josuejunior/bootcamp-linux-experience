@@ -1,0 +1,10 @@
+--- MOVENDO ARQUIVOS DE UMA PASTA PARA OUTRA
+
+Utilizaremos o comando "mv /home/josuejunior/planilhas.xlsx /disk2"
+
+
+--- RENOMEANDO ARQUIVOS E PASTAS
+
+Utilizaremos o comando mv + nome do arquivo atual + nome do arquivo novo.
+
+Exemplo: "mv planilhas.xlsx planilhas1.xlsx"
