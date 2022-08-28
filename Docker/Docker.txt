@@ -1,0 +1,40 @@
+DOCKER: Utilização prática no cenário de Microsserviços
+
+--- MIGRAR PARA UMA NUVEM PÚBLICA
+
+Bare Metal: Refere-se a nuvem local/datacenter/aplicações instalada em servidores.
+
+Vantagens de migrar para um nuvem pública:
+
+1. Preço
+2. Facilidade de contratação, configuração e infraestrutura.
+3. Escalabilidade
+4. Performance
+
+
+--- MICROSSERVIÇOS
+
+São uma arquitetura de software invadora, que consiste em construir aplicaçoes desmembrando-as em serviçõs independentes.
+Todos os serviços se comunicam entre si usando APIs (consulta, pagamento e etc).
+Quando quebramos uma aplicação em várias partes pequenas, conseguimos escalá-las de forma separadas.
+
+Com os microsserviços podemos apenas escalar apenas uma parte ao invés de ter que escalar toda aplicação, como ocorre em uma arquitetura monolítica.
+
+Os microsserviços não necessariamente precisam ser inscritos usando a mesma linguagem de programação.
+
+
+--- CLUSTER
+
+O que é um Cluster? Consiste em computadores ligados que trabalham em conjunto, de modo que, em muitos aspectos, podem ser considerados como um único sistema.
+
+
+--- DOCKER SWARM
+
+Swarm é um recurso do Docker que fornecer funcionalidades de orquestração de contêiner, incluindo clustering nativo de hosts do docker e agendamento de cargas de trabalho de contêineres. 
+Um grupo de hosts do Docker formam um cluster Swarm.
+
+
+
+
+
+
