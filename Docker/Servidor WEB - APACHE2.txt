@@ -1,0 +1,17 @@
+--- SERVIDOR WEB - APACHE2
+
+Instalando o servidor Web Apache para criarmos um site via Linux Ubuntu
+
+No Ubuntu a aplicação chama-se "apache2".
+
+1 - Para instalar o apache2 no servidor Linux, usaremos o comando "apt install apache2 -y"
+2 - Verificar se o apache2 já encontra-se ativo com o comando "systemctl status apache2"
+3 - Ir ao arquivo HTML que encontra-se "cd /var/www/hmtl"
+4 - Apagar o documento que estiver na pasta e criar um arquivo "nano index.html"
+5 - Dentro do arquivo digitar, segue:
+    <html>
+    <h1> ... texto... </h1>
+    </html>
+6 - Depois ir no navegador e digitar o IP no link. Deverá carregar uma página com o texto digitado.
+
+
