@@ -1,0 +1,30 @@
+--- SERVIDOR BANCO DE DADOS - MYSQL
+
+Exemplos de bancos de dados: SQL, MySQL, IIS
+
+Tem como função principal armazenar dados e informações de usuários ou sites.
+
+--- INSTALANDO O MYSQL NO UBUNTU
+
+1 - Instalar o MySQL pelo comando "apt install mysql-server-8.0 -y"
+2 - Logar no banco de dados com user root
+    "mysql -u root -p"
+        digitar a senha root
+3 - Criando um banco de dados dentro do MySQL
+      "create database meubanco;"
+4 - Ver meu banco criado
+       "show databases;"
+5 - Entrar no banco de dados criado
+        "use meubanco;"
+6 - Criar tabela dentro do meu banco
+        "create table pessoas (PessoaID int, Nome varchar(50), Sobrenome varchar(50), Endereço varchar(50), Cidade varchar(50));"
+7 - Mostrar tabela criada
+         "show tables;"
+8 - Para selecionar tabelas
+         "select * from pessoas;
+9 - Para inserir informações nas tabelas
+         "insert into pessoas (PessoaID, Nome, Sobrenome, Endereço, Cidade) VALUES (1, 'Josué', 'Júnior', 'Rua Veneza', 'Paulista');
+10 - Para sair do banco de dados
+         "exit"
+
+
