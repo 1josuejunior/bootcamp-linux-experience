@@ -1,0 +1,47 @@
+--- SERVIDOR DE ARQUIVOS SAMBA - LINUX UBUNTU
+
+Para realizar o compartilhamento local entre máquinas com o servidor no Linux utilizamos o SMB.
+
+Centraliza todos os arquivos no servidor, onde todos os usuários aptos terão acesso.
+
+
+--- INSTALAÇÃO DO SAMBA E CONFIGURAÇÃO INICIAL
+
+Site: samba.org --> Nele há atualizações e diversos passo-a-passo do SAMBA.
+
+1 - No Virtual Box criar um snapshot da máquina.
+2 - Para instalar o Samba, utilizaremos o comando "apt install samba -y"
+3 - Dentro do disk2 criaremos uma pasta compartilhada "mkdir publica"
+4 - Na pasta todos os usuários deverão ter todas permissões "chmod 777 publica"
+5 - Agora devemos configurar o SAMBA "nano /etc/samba/smb.conf"
+6 - No final do arquivo iremos especificar as configurações desejadas, segue:
+
+{publica}
+path = /disk2/publica
+writable = yes
+guest ok = yes
+guest only = yes
+
+Salvar e  sair.
+
+7 - Reiniciar o serviço SAMBA com o comando "systemctl restart smbd"
+
+Obs.: O SAMBA é um serviço de segundo plano (ouvinte) ou chamado como Daemon.
+
+8 - Verificar se o serviço está funcionando com o comando "systemctl status smbd"
+9 - Para deixar o serviço ativado assim que o servidor for reiniciado usamos o comando "system enable smbd"
+
+
+--- CONFIGURANDO O ACESSO VIA MÁQUINA CLIENTE
+
+O acesso ao servidor é feito pelo IP, de qualqeur local onde esteja disponível.
+
+1 - Verificar o ip, usamos o comando "ip a"
+2 - Acessando a pasta publica do servidor Linux a partir do Windows.
+    No explorador de arquivos Windows digitaremos \\ip\publica no link.
+3 - Logar com as credenciais de um usuário
+
+Obs.: Tudo que for salvo a partir do Windows não ficará salvo na máquina, mas sim, no servidor.
+
+
+
